@@ -1,0 +1,108 @@
+.item-main-list {
+  padding: 25px 10px;
+  border-bottom: 0.5px solid #d3d3d3;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#root{
+  height: 100vh;
+  min-height: 100%;
+}
+.item-1-side {
+  width: 60%;
+}
+.item-2-side {
+  width: 40%;
+  display: flex;
+  justify-content: end;
+}
+
+.item-side-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  color: rgba(2, 6, 12, 0.75);
+}
+
+.item-side-price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: rgba(2, 6, 12, 0.92);
+  margin-top: 4px;
+}
+
+.tem-side-description {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  color: #02060c99;
+}
+
+.item-side-image {
+  width: 156px;
+  height: 144px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.item-side-button {
+  background: #fff;
+  outline: none;
+  color: #46bb1f;
+  position: absolute;
+  padding: 7px;
+  width: 120px;
+  bottom: -17px;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  border-radius: 7px;
+  border: 1px solid #46bb1f;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.item-image-positioning {
+  width: 156px;
+  height: 144px;
+  position: relative;
+  margin-left: 120px;
+}
+
+@media screen and (max-width: 500px) {
+  .item-1-side
+  /* .item-2-side  */ {
+    width: 50%;
+  }
+  .item-side-description {
+    display: none;
+  }
+  .item-side-name,
+  .item-side-price {
+    font-size: 12px;
+  }
+  .item-side-image {
+    width: 125px;
+    height: 125px;
+  }
+}#root{
+  padding: 0;
+}
+.LoginForm{
+  height: 100vh;
+}
+Form.Group{
+  padding-bottom: 10px;
+}
+.diff-section{
+  height: 100%;
+}
+.commonHeight{
+  min-height: 100vh;
+}
